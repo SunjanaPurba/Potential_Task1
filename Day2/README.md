@@ -132,7 +132,7 @@
 
 ---
 
-## 🧩 Set 5
+## Set 5
 
 1. **Check if a number is positive, negative, or zero**
    ```js
