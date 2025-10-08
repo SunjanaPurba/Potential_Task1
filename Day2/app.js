@@ -38,3 +38,37 @@ if (x < 5) {
   console.log("x is greater than 5");
 }
 
+let num = 3;
+switch (num) {
+  case 1:
+    console.log("One");
+    break;
+  case 2:
+    console.log("Two");
+    break;
+  default:
+    console.log("Three");
+}
+
+const add = (a, b) => {
+    return a + b;
+};
+console.log(add(5, 3));
+
+function greet(name = 'Guest') {
+  return `Hello, ${name}!`;
+}
+console.log(greet('Alice')); 
+console.log(greet());
+
+function countUp(n, target) {
+     if (n > target) {
+        return;
+    }
+    console.log(n);
+    countUp(n + 1, target);
+}
+
+countUp(1, 5);
+
+
